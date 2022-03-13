@@ -16,9 +16,12 @@ namespace Persistence
             {
                 new Activity
                 {
-                    Level = 12,
-                    IsPremium = false,
-                    GlobalRankPLace = 1
+                    Title = "Test",
+                    Date = DateTime.Now.AddDays(10),
+                    Description = "Test2",
+                    Category = "Test3",
+                    City = "Test4",
+                    Venue = "Test5"
                 }              
             };
 
